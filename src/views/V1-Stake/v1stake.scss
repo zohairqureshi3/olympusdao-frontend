@@ -1,0 +1,35 @@
+.stake-action-row.v1-row {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  .learn-more-button {
+    width: 91%;
+    height: 40px;
+    background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+    p {
+      margin-right: 5px;
+    }
+  }
+  .learn-more-button:hover{
+    border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+  }
+  .migrate-button {
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+  }
+  .migrate-button:hover{
+    background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+  }
+}

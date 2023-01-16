@@ -1,0 +1,206 @@
+* {
+  outline: none;
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+html,
+body,
+#root {
+  font-family: "Square";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  z-index: 1;
+  background-size: cover;
+  font-family: "Square";
+  overflow: hidden;
+  transition: all ease 0.33ms;
+  background-image: linear-gradient(#0E0D0E, #7333A5);
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 0 !important;
+}
+
+.ohm-card {
+  max-width: 833px;
+  background: linear-gradient(#230F2F, #000000);
+  color: #ffffff !important;
+  .card-header {
+    width: 100%;
+    min-height: 33px;
+    margin-bottom: 10px;
+    h5 {
+      font-weight: 600 !important;
+    }
+  }
+
+  .help-text {
+    margin: 10px 0px;
+  }
+
+  .data-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 12px 0px;
+  }
+
+  .data-row-centered {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 12px 0px;
+    .marginedBtn {
+      margin: 0.3rem;
+    }
+  }
+}
+
+.ohm-pairs {
+  display: flex;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}
+
+a:hover svg {
+  color: inherit;
+}
+
+.tooltip {
+  z-index: 9999999;
+}
+iframe{
+  display: none !important;
+}
+
+// ============
+.MuiSvgIcon-colorPrimary{
+  color: #ffffff !important;
+}
+.MuiTypography-colorTextSecondary, .MuiTab-textColorPrimary.Mui-selected{
+  color: #ffffff !important;
+}
+.MuiTabs-indicator{
+  background: #FB9123 !important;
+}
+.MuiBox-root.MuiBox-root-126 .MuiButtonBase-root{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+  
+}
+.MuiBox-root.MuiBox-root-126 .MuiButtonBase-root:hover{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+.MuiTableCell-head{
+  color: #FB9123 !important;
+}
+.MuiButton-text{
+  color: #ffffff !important;
+}
+
+.MuiButton-containedPrimary{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+.MuiButton-containedPrimary:hover{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+}
+.MuiPaper-elevation0 .MuiTypography-h3{
+  color: #ffffff !important;
+}
+.MuiPaper-elevation0 .wallet-link a{
+  color: #ffffff !important;
+}
+.MuiPaper-elevation0 .wallet-link a:hover{
+  color: #FB9123 !important;
+}
+.MuiPaper-elevation0 .MuiTypography-body1{
+  color: #ffffff !important;
+}
+.MuiPaper-elevation0 .MuiTypography-body2{
+  color: #ffffff !important;
+}
+.MuiPaper-elevation0 .MuiButton-outlinedSizeLarge{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+.MuiPaper-elevation0 .MuiButton-outlinedSizeLarge:hover{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+}
+.MuiPaper-elevation0 .MuiButton-containedSecondary{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+.MuiPaper-elevation0 .MuiButton-containedSecondary:hover{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+}
+
+#v1-stake-view .MuiButton-outlinedSecondary{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+  
+}
+#v1-stake-view .MuiButton-outlinedSecondary:hover{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+#stake-view .MuiButton-outlinedSecondary{
+  background: transparent !important;
+    border: 1px solid #FB9123 !important;
+    color: #ffffff !important;
+  
+}
+#stake-view .MuiButton-outlinedSecondary:hover{
+  border: 1px solid transparent !important;
+    color: #ffffff !important;
+    background: linear-gradient(
+90deg, #FB9123 0%, #BE45F7 100%) !important;
+}
+.MuiPaper-elevation0{
+  opacity: 1 !important;
+}
